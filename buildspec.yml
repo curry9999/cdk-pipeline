@@ -9,4 +9,4 @@ phases:
       - npm ci
       - npm install
       - npm install -g cdk
-      - ls -l node_modules/
+      - npm run build
