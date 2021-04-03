@@ -6,4 +6,4 @@ phases:
       nodejs: 12
   pre_build:
     commands:
-      - npm install -g cdk && npm ci && cdk synth
+      - npm install -g cdk && npm ci && npx cdk synth
