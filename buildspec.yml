@@ -6,4 +6,4 @@ phases:
       nodejs: 12
   pre_build:
     commands:
-      - npm install -g cdk && npm install && ls -l node_modules/@aws-cdk/
+      - npm install -g cdk && npm install && ls node_modules/@aws-cdk/
