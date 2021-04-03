@@ -7,5 +7,6 @@ phases:
   pre_build:
     commands:
       - npm ci
+      - npm install
       - npm install -g cdk
-      - ls -l
+      - ls -l node_modules/
